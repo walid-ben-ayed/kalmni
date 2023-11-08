@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgraw"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".solutionRelation">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="23dp"
+                android:gravity="center_horizontal"
+                android:text="كيف نتعامل معها"
+                android:textColor="#050505"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:padding="10dp"
+                android:text="المشاكل أمر طبيعي في العلاقات العاطفية، ولكنّ طريقة التعامل معها هو ما سيحدد إلى أيّ مدى سوف تؤثر هذه الأزمات على العلاقة بين الرجل والمرأة.
+وهناك بعض المشاكل الشائعة في العلاقات العاطفية سوف نرصدها لكِ لمحاولة تجنبها، وطريقة التعامل معها إن واجهتكِ"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="مشكلة الثقة"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="من أكثر المشاكل التي تواجه الشريكين هي قلة الثقة بينهما، وعادة ما تأتي بسبب تراكم بعض الامور التي لم يتم حلها، وتعتمد في الأساس على إحساس الطرفين أو أحدهما بانعدام الأمان.
+في هذه الحالة لا بد من وقفة وحديث أساسه الصراحة، وأن يسأل كل واحد منهما نفسه قبل أن يسأل الآخر، لماذا يشعر بعدم الأمان مع الطرف الثاني."
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="التوقعات المختلفة"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:padding="10dp"
+                android:text="توقعاتنا عن الأشخاص حولنا، ربما تؤذينا كثيرًا، كما أنها تجعلنا نصرف النظر عن التفكير بأنفسنا، فحاولي قدر الإمكان أن تخفّضي توقعاتكِ تجاه الرجل، وتركّزي فقط على ما يجب أن تفعليه، وليس ما يجب أن يفعله الطرف الآخر لكِ"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

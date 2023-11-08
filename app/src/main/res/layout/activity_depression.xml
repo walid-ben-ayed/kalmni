@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".depression">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="198dp"
+        app:srcCompat="@drawable/dep" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"></LinearLayout>
+
+            <Button
+                android:id="@+id/b111"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="50dp"
+                android:padding="15dp"
+                android:text="مشاكل الإكتئاب"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:backgroundTint="#93D3D8" />
+
+            <Button
+                android:id="@+id/b22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:padding="15dp"
+                android:text="كيف نتعامل معها"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:backgroundTint="#93D3D8" />
+
+            <Button
+                android:id="@+id/b23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="إستشارة نفسية"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:backgroundTint="#E8A6A5" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
