@@ -10,13 +10,13 @@ Kalmni provides an intuitive and secure platform, simplifying the search and boo
 With a user-friendly interface, the app aims to streamline access to mental health services, enhancing the well-being of users.
 
 Ecran de lancement:
-![kalmni acceuil](capture image/2.jpg)
+![kalmni acceuil](images/2.jpg)
 
 Dashboard:
-![kalmni acceuil](capture image/3.jpg)
+![kalmni acceuil](images/3.jpg)
 
 Page de détails:
-![kalmni acceuil](capture image/4.jpg)
+![kalmni acceuil](images/4.jpg)
 
 
 
